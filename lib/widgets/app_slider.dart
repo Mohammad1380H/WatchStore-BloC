@@ -14,7 +14,7 @@ class AppSlider extends StatefulWidget {
 }
 
 class _AppSliderState extends State<AppSlider> {
-  final CarouselController _controller = CarouselController();
+  final CarouselSliderController  _controller = CarouselSliderController ();
 
   int _current = 0;
 
